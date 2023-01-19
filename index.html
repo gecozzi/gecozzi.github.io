@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liam Lambert - C.V.</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="ul1">
+                <a href="#inicio" class="sacardeco">
+                    <li class="lis">Home</li>
+                </a>
+                <a href="#contacto" class="sacardeco">
+                    <li class="lis">Contactame</li>
+                </a>
+                <a href="#sobre" class="sacardeco">
+                    <li class="lis">Sobre mí</li>
+                </a>
+                <a href="#trabajos" class="sacardeco">
+                    <li class="lis">Datos</li>
+                </a>
+                <a href="pagina2.html" class="sacardeco">
+                    <li class="lis">Formacion</li>
+                </a>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="opacidad">
+            <h1 id="sobre">Liam Lambert</h1>
+            <h2>Programador Full-Stack</h2>
+            <p>Soy un persona trabajadora que está acostumbrada al trabajo duro, tengo varios años de experiencia en pragramación de páginas web y estoy en búsqueda de oportunidades de trabajo como programador Full-Stack para poder expandir mis experiencias y capacitación. También me considero una persona resolutiva, con buen ánimo y capaz de resolver problemas fácilmente.</p>
+        </section>
+        <section id="trabajos">
+            <h2>Datos Personales:</h2>
+            <div class="trab-lista">
+                <div class="detalles">
+                    <img src="image/01.jpg" alt="">
+                    <h3>Fecha de Nacimiento.</h3>
+                    <p>4/07/1987</p>
+                </div>
+                <div class="detalles">
+                    <img src="image/02.jpg" alt="">
+                    <h3>E-Mail:</h3>
+                    <p>liam.lambert@example.com</p>
+                </div>
+                <div class="detalles">
+                    <img src="image/03.jpg" alt="">
+                    <h3>Telefono.</h3>
+                    <p>(621) 345-8280</p>
+                </div>
+                <div class="detalles">
+                    <img src="image/04.jpg" alt="">
+                    <h3>Dirección.</h3>
+                    <p>3113 West, Campbel Ave., San juan, Argentina.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="">
+                <div>
+                    <label for="">Nombre:</label>
+                    <input type="text" placeholder="Escriba su Nombre (min 3 carácteres)" id="nn" size="30">
+                </div>
+                <div>
+                    <label for="">Telefono:</label>
+                    <input type="text" placeholder="Escriba su telefono (min 3 carácteres)" id="cel" size="30">
+                </div>
+                <div>
+                    <label for="">Asunto:</label>
+                    <input type="text" placeholder="Escriba su Asunto (min 3 carácteres)" id="asunto" size="30">
+                </div>
+                <div>
+                    <label for=""></label>
+                    <textarea name="mensaje" id="msj" cols="30" rows="10" placeholder="Escirba su mesaje (min 6 carácteres)" required></textarea>
+                </div>
+                <button type="submit" onclick="gracias()">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <a href="index.html#inicio" class="sacardeco">
+                    <li>
+                        Volver al Inicio.
+                    </li>
+                </a>
+                
+            </ul>
+            <p>
+                Todos los derechos reservados. ©
+            </p>
+        </nav>
+    </footer>
+    <script src="js/funciones.js"></script>
+</body>
+</html>

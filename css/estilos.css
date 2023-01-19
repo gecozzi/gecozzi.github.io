@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Rowdies', cursive;
+}
+@media only screen and (max-width: 600px) {
+    section#inicio h1 {
+        font-size: 40px;
+    }
+    section{
+        margin-top: auto auto auto auto;
+    }
+    .ul1{
+    
+        padding: 3px;
+        
+        list-style: none;
+        justify-content: right;
+        
+    }
+    .lis{
+        padding: auto auto auto auto;
+        color: antiquewhite;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-family: 'Courier New', Courier, monospace;
+        background: rgb(94, 61, 44);
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .opacidad{
+        background-image: url("https://i.ibb.co/4pMbXWt/perfil.jpg" );
+        background-size: 80px;
+        background-position: top; 
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
+    .trab-lista {
+        display: table;
+        
+        justify-content: center;
+    }
+    .detalles{
+        color: rgb(219, 164, 82);
+        background-color: rgb(155, 90, 68);
+        border: 5px double rgb(122, 118, 118);
+        width: 50%;
+        margin: 0;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .detalles img{
+        width: 70%;
+        border-top-left-radius: 27px;
+        border-top-right-radius: 27px;
+        opacity: .7;
+    
+    }
+    section#trabajos h2{
+        margin-top: 10px;
+    }
+    section#contacto{
+    
+        /*background-color: rgb(75, 74, 73);*/
+        display: table;
+       margin-bottom: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    section#contacto h2{
+        margin-top: auto;
+    }
+    
+  }
+body{
+    background-color: rgb(242, 244, 241);
+}
+.sacardeco{
+    text-decoration: none;
+}
+/**aqui estan los estilos de la etiqueta Header **/
+header{
+    background-color: rgb(155, 90, 68);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav ul{
+    
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+nav ul li{
+    color: antiquewhite;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: rgb(94, 61, 44);
+    text-decoration: none;
+}
+
+/**Aqui estan los estilos de la primera seccion del body**/
+section{
+    height: 100vh;
+}
+section#inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+h1{
+    color: rgba(94, 61, 44, 1);
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+h2{
+    color: rgba(155, 90, 68, 1);
+    font-size: 2rem;
+    text-align: center;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+.opacidad{
+    background-image: url("https://i.ibb.co/4pMbXWt/perfil.jpg" );
+    background-size: auto;
+    background-position: center; 
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+section#inicio p{
+    width: 80%;
+    color: rgba(155, 90, 68, 1);
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    border: 7px double rgb(219, 164, 82);
+}
+/**Aqui estan los estilos de la seccion trabajos**/
+section#trabajos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.trab-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.detalles{
+    color: rgb(219, 164, 82);
+    background-color: rgb(155, 90, 68);
+    border: 5px double rgb(122, 118, 118);
+    width: 300px;
+    margin: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.detalles img{
+    width: 100%;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    opacity: .7;
+
+}
+section#trabajos h2{
+    margin-top: 100px;
+}
+
+/**Aqui estan los estilos de la seccion contacto**/
+section#contacto{
+    
+    /*background-color: rgb(75, 74, 73);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+section#contacto h2{
+    margin-top: 100px;
+}
+
+/**Aqui estan los estilos del footer**/
+
+.alinear{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ajustar img{
+        width: 100%;
+        border-top-left-radius: 27px;
+        border-top-right-radius: 27px;
+        opacity: .7;
+}
+
+/**Aqui estan los estilos de la seccion secundarios de la pagina 2**/
+
+section#secundario{
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 10px double rgb(155, 90, 68);
+}
+.div1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.detail {
+    width: 300px;
+    margin: 10px;
+}
+.detail img{
+    width: 100%;
+    opacity: .7;
+}
+.claseh3p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.sectionh3{
+    color: rgb(94, 61, 44);
+}
+
+.backg{
+    background-color: rgb(219, 164, 82);
+}
+
+/**Aqui estan los estilos de la seccion Univ**/
+section#univ{
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 10px double rgb(155, 90, 68);
+
+}
+
+/**Aqui estan los estilos de la seccion Post**/
+
+section#post{
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 10px double rgb(155, 90, 68);
+
+}
+section#post img{
+    height: 70%;
+}
